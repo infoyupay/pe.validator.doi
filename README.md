@@ -261,7 +261,7 @@ lugar de tener que hacer él la limpieza manual.
 - **Seguridad**: garantizamos que el dato enviado sea compatible con los sistemas de SUNAT, evitando errores de validación.
 Nuestra experiencia nos ha demostrado que dejarle esa responsabilidad al usuario, inevitablemente termina en errores no
 deseados, muchos de los cuáles revientan en las auditorías, con terribles costos para los stakeholders.
-- **Separación de Responsabilidades**: cualquier sitema o aplicación robusto, con una arquitectura madura, tiene que 
+- **Separación de Responsabilidades**: cualquier sistema o aplicación robusto, con una arquitectura madura, tiene que 
 separar adecuadamente las responabilidades de los distintos elementos. Y la responsabilidad de sanitizar no debe recaer
 en un actor humano, sino en un comportamiento del sistema.
 
