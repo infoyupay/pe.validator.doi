@@ -9,8 +9,8 @@ version = "0.1.0"
 
 // === JAVA 25 local ===
 java {
-    sourceCompatibility = JavaVersion.VERSION_25
-    targetCompatibility = JavaVersion.VERSION_25
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
     modularity.inferModulePath.set(true)
 }
 
