@@ -85,22 +85,38 @@ so developers can clean inputs **before** running any additional logic.
 
 Available on Maven Central:
 
+**Group ID:** `com.infoyupay.validator`  
+**Artifact ID:** `validator-doi`  
+**Version:** `1.0.0`  
+
+🔗 **Maven Central:**  
+https://central.sonatype.com/artifact/com.infoyupay.validator/validator-doi
+
+---
+
 ### Gradle (Kotlin DSL)
 
 ```kotlin
 dependencies {
-    implementation("com.infoyupay:pe.validator.doi:<version>")
+    implementation("com.infoyupay.validator:validator-doi:1.0.0")
+}
+```
+
+### Gradle (Groovy DSL)
+
+```groovy
+dependencies {
+    implementation 'com.infoyupay.validator:validator-doi:1.0.0'
 }
 ```
 
 ### Maven
 
 ```xml
-
 <dependency>
-    <groupId>com.infoyupay</groupId>
-    <artifactId>pe.validator.doi</artifactId>
-    <version><!-- version --></version>
+    <groupId>com.infoyupay.validator</groupId>
+    <artifactId>validator-doi</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 
