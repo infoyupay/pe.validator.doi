@@ -22,7 +22,10 @@ repositories {
 dependencies {
     // JUnit Jupiter 6.x
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
-    testImplementation("org.junit.jupiter:junit-jupiter:6.0.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.5")
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.10.5")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.10.2")
 
 
     // AssertJ moderno
