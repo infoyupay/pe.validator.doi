@@ -35,7 +35,7 @@
  * </ul>
  *
  * <br>
- * The focus of this module is exclusively on the **structure** of DOI values:
+ * The focus of this module is exclusively on the <strong>structure</strong> of DOI values:
  * it determines whether a number is valid according to official formatting rules,
  * but does <em>not</em> determine whether the identifier actually exists in
  * a governmental database.
