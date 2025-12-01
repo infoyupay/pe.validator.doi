@@ -270,6 +270,60 @@ aleccionamiento, solamente como una anécdota de parte de alguien que ya ha pasa
 
 ---
 
+# 📁 Snippets y Recursos Adicionales
+
+Este proyecto incluye una colección de **snippets prácticos** destinados a facilitar la integración del validador de DOI con distintos entornos, marcos de trabajo y motores de base de datos. Todos se encuentran en el directorio:
+
+```
+/snippets
+```
+
+Actualmente están disponibles:
+
+## 🧩 Snippets de Integración UI
+Ejemplos de uso del validador en diversas tecnologías de interfaz:
+
+- **JavaFX**
+- **Swing**
+- **SWT**
+- **QtJambi**
+- **Android (Kotlin/Java)**
+
+📄 Disponible en:
+- [`snippets/ui-integration.md`](./snippets/ui-integration.md) (ES)
+- [`snippets/ui-integration.en.md`](./snippets/ui-integration.en.md) (EN)
+
+Estos ejemplos no introducen dependencias adicionales al módulo principal; se centran en la ergonomía del desarrollador.
+
+---
+
+## 🗃️ Snippets SQL (ENUMs y CHECK Constraints)
+Modelado de tipos de documento (DOI) en los principales motores SQL:
+
+- **PostgreSQL** – ENUM nativo
+- **Oracle** – Package de constantes + CHECK
+- **SQL Server (T-SQL)** – CHECK
+- **MySQL/MariaDB** – ENUM
+- **SQLite** – TEXT + CHECK (simulación de ENUM)
+
+📄 Índices disponibles:
+- [`snippets/sql/sql-doitype-index.md`](./snippets/sql/sql-doitype-index.md) (ES)
+- [`snippets/sql/sql-doitype-index.en.md`](./snippets/sql/sql-doitype-index.en.md) (EN)
+
+Cada motor tiene su archivo `.sql` listo para copiar y usar en tus modelos de datos.
+
+---
+
+## ✨ Propósito de los snippets
+Los snippets no forman parte del **core** de la biblioteca (que permanece minimalista), pero proporcionan:
+
+- **ergonomía del programador**,
+- **consistencia semántica**,
+- **alineamiento con SUNAT**,
+- y una **guía clara para integrar el validador DOI en sistemas reales**.
+
+---
+
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo **GPLv3 or (at your option) any later version**.  
