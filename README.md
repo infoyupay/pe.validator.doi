@@ -83,11 +83,26 @@ para poder limpiar datos **antes** de cualquier lógica adicional.
 
 Disponible en Maven Central:
 
+**Group ID:** `com.infoyupay.validator`  
+**Artifact ID:** `validator-doi`  
+**Version:** `1.0.0`  
+
+🔗 **Maven Central:**  
+https://central.sonatype.com/artifact/com.infoyupay.validator/validator-doi
+
 ### Gradle (Kotlin DSL)
 
 ```kotlin
 dependencies {
-    implementation("com.infoyupay:pe.validator.doi:<versión>")
+    implementation("com.infoyupay.validator:validator-doi:1.0.0")
+}
+```
+
+### Gradle (Groovy DSL)
+
+```groovy
+dependencies {
+    implementation 'com.infoyupay.validator:validator-doi:1.0.0'
 }
 ```
 
@@ -96,9 +111,9 @@ dependencies {
 ```xml
 
 <dependency>
-    <groupId>com.infoyupay</groupId>
-    <artifactId>pe.validator.doi</artifactId>
-    <version><!-- versión --></version>
+    <groupId>com.infoyupay.validator</groupId>
+    <artifactId>validator-doi</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 
